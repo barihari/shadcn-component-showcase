@@ -48,6 +48,7 @@ import * as toastModule from "./app/toast/page.tsx"
 import * as toggleModule from "./app/toggle/page.tsx"
 import * as toggleGroupModule from "./app/toggle-group/page.tsx"
 import * as tooltipModule from "./app/tooltip/page.tsx"
+import * as imageCardModule from "./app/image-card/page.tsx"
 
 // Use VERCEL_DEPLOYMENT_ID as fingerprint instead of commit SHA
 const commitSha = process.env.VERCEL_DEPLOYMENT_ID || "local"
@@ -74,6 +75,7 @@ const modules = [
   { name: "drawer", module: drawerModule },
   { name: "dropdown-menu", module: dropdownMenuModule },
   { name: "hover-card", module: hoverCardModule },
+  { name: "image-card", module: imageCardModule },
   { name: "input", module: inputModule },
   { name: "input-otp", module: inputOtpModule },
   { name: "label", module: labelModule },

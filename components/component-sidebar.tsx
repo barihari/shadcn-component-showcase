@@ -44,6 +44,7 @@ const components = [
   "dropdown-menu",
   "form",
   "hover-card",
+  "image-card",
   "input",
   "input-otp",
   "label",
@@ -116,8 +117,8 @@ export function ComponentSidebar({ currentComponent, children }: ComponentSideba
           {/* Replaced "Component Showcase" with attribution */}
           <p className="text-sm text-muted-foreground">
             Built by{" "}
-            <a href="https://x.com/jacobmparis" target="_blank" rel="noopener noreferrer" className="underline">
-              @jacobmparis
+            <a href="" target="_blank" rel="noopener noreferrer" className="underline">
+              @sbeharry
             </a>
           </p>
         </div>
